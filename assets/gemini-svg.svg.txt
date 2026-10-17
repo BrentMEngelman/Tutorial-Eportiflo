@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <defs>
+  </defs>
+  <g transform="translate(50, 25)">
+    <!-- LETTER B -->
+    <g id="letter-B">
+      <!-- Top Arc of B -->
+      <path d="M 220,70 L 360,70 A 110,110 0 0,1 470,180 A 110,110 0 0,1 360,290 L 220,290 Z M 290,140 L 290,220 L 345,220 A 40,40 0 0,0 385,180 A 40,40 0 0,0 345,140 Z" fill="url(#metalGradient)"/>
+      <!-- Bottom Arc of B -->
+      <path d="M 220,310 L 370,310 A 120,120 0 0,1 490,430 A 120,120 0 0,1 370,550 L 220,550 Z M 290,380 L 290,480 L 355,480 A 50,50 0 0,0 405,430 A 50,50 0 0,0 355,380 Z" fill="url(#metalGradient)"/>
+      <!-- Left Angular Stem / Cuts of B -->
+      <path d="M 80,70 L 200,70 L 200,290 L 140,230 L 80,230 Z" fill="url(#metalGradient)"/>
+      <path d="M 80,310 L 140,310 L 200,370 L 200,550 L 80,550 Z" fill="url(#metalGradient)"/>
+    </g>
+    <!-- LETTER E -->
+    <g id="letter-E" transform="translate(30, 0)">
+      <!-- Top Horizontal Arm -->
+      <path d="M 480,70 L 780,70 L 780,180 L 670,180 L 670,140 L 480,140 Z" fill="url(#metalGradient)"/>
+      <!-- Middle Horizontal Arm with Notch -->
+      <path d="M 480,270 L 530,310 L 480,350 L 480,270 Z" fill="url(#metalGradient)"/>
+      <path d="M 530,270 L 730,270 L 730,350 L 530,350 Z" fill="url(#metalGradient)"/>
+      <!-- Bottom Horizontal Arm -->
+      <path d="M 480,480 L 670,480 L 670,440 L 780,440 L 780,550 L 480,550 Z" fill="url(#metalGradient)"/>
+      <!-- Vertical Spine of E -->
+      <path d="M 480,70 L 560,70 L 560,550 L 480,550 Z" fill="url(#metalGradient)"/>
+    </g>
+  </g>
+</svg>
