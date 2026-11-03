@@ -117,7 +117,7 @@ nav,
 .header {
   opacity: 1;
   visibility: visible;
-  transition:  all 600ms;
+  transition: all 600ms;
 }
 
 .modal--open nav,
@@ -125,7 +125,7 @@ nav,
 .modal--open .header {
   opacity: 0;
   visibility: hidden;
-  transition:  all 400ms;
+  transition: all 400ms;
 }
 
 .dark-theme .title,
@@ -133,8 +133,7 @@ nav,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-circle-half-stroke,
-.dark-theme .header__para
-{
+.dark-theme .header__para {
   color: white;
 }
 .dark-theme section {
@@ -306,13 +305,16 @@ Modal
   display: flex;
   visibility: hidden;
   z-index: -1;
-  transition: visibility 1s, z-zindex 1s, box-shadow 0.5s ease;
+  transition:
+    visibility 1s,
+    z-zindex 1s,
+    box-shadow 0.5s ease;
 }
 
-.modal--open .modal{
+.modal--open .modal {
   z-index: 60;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
-  visibility: visible ;
+  visibility: visible;
 }
 
 .modal__half {
@@ -411,29 +413,28 @@ Modal
   color: #f06449;
 }
 .modal__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
 
 .modal__overlay--loading {
-    background-color: #242424;
-    font-size: 80px;
-    
+  background-color: #242424;
+  font-size: 80px;
 }
 
 .modal__overlay--success {
-    background-color: #4bb543;
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    padding: 28px;
+  background-color: #4bb543;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 28px;
 }
 .modal__overlay--visible {
   z-index: 1;
@@ -441,12 +442,12 @@ Modal
 }
 
 .modal__exit {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    color: #fff;
-    font-size: 36px;
-    z-index: 100;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: #fff;
+  font-size: 36px;
+  z-index: 100;
 }
 
 .modal--open nav,
@@ -458,16 +459,15 @@ Modal
 }
 
 .fa-spinner {
-    animation: spinner 750ms infinite linear;
+  animation: spinner 750ms infinite linear;
 }
 @keyframes spinner {
-        0%{
-            transform: rotate(0);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 /* 
 
@@ -612,7 +612,6 @@ widht = 80vw
   left: 80vw;
 }
 
-
 .shape--3 {
   top: 50vh;
   left: 5vw;
@@ -625,7 +624,6 @@ widht = 80vw
   top: 50vh;
   left: 80vw;
 }
-
 
 .shape--6 {
   top: 80vh;
@@ -672,7 +670,7 @@ small phones
 
 */
 
-@media (max-width:480px){
+@media (max-width: 480px) {
   .title {
     font-size: 52px;
   }
